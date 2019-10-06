@@ -1,0 +1,155 @@
+/* master */
+.item-left {
+    float: left;
+}
+
+.item-right {
+    float: right;
+}
+
+ul {
+    list-style: none;
+}
+
+.container-fluid {
+    padding: 0!important;
+}
+
+label {
+    margin: 0!important;
+}
+
+.inner {
+    margin: 0 150px;
+}
+/* header */
+.header {
+    height: 4rem;
+    width: 100%;
+}
+
+.logo {
+    height: 38px;
+    padding: 5px 24px 0;
+}
+
+.search {
+    border: solid rgb(235, 235, 235);
+    border-width: 1px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px;
+    width: 460px;
+    padding-bottom: 8px;
+}
+
+.search span {
+    display: inline-block;
+    margin: 8px 8px 0 13px;
+    font-size: 20px;
+}
+
+.search input {
+    outline: none;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.link {
+    display: inline-block;
+    color: rgb(72, 72, 72);
+    margin: 12px 15px 12px 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.link:hover {
+    color: rgb(72, 72, 72);
+    text-decoration: none;
+    border-bottom: solid rgb(118, 118, 118);
+    border-width: 2px;
+    padding-bottom: 28px;
+    margin-bottom: 0px;
+}
+
+/* Main*/
+.background {
+    background: #fff url(../images/background.jpg) no-repeat center center / cover;
+    height: 100vh;
+    position: relative;
+}
+
+.main-caption {
+    position: absolute;
+    top: 200px;
+    left: 90px;
+    color: white;
+}
+
+.main-caption h1 {
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.main-caption h2 {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.main-caption a {
+    color: rgb(72, 72, 72);
+    border: solid white;
+    border-radius: 3px;
+    background-color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+/* Function */
+.function {
+    padding-bottom: 30px!important;
+}
+.function h2 {
+    font-weight: bold;
+    color:rgb(72, 72, 72);
+    margin: 45px 0;
+}
+
+.function i {
+    color:rgb(0, 122, 135);
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+.function h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(72, 72, 72);
+    margin-bottom: 20px;
+}
+
+.function p {
+    color: rgb(118, 118, 118);
+}
+
+/* Register */
+.register {
+    background-color: rgb(0, 122, 135);
+}
+
+.register img {
+    padding: 50px 0 20px;
+}
+
+.register h2 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+
+.register h3 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
