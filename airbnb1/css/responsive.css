@@ -1,0 +1,59 @@
+@media screen and (max-width:1024px) {
+    .header-right {
+        display:none;
+    }
+
+    .header {
+        margin-top: 15.5px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    /* master */
+    .inner {
+        margin: 0 10px;
+    }
+
+    /* header */
+    .header {
+        margin-top: 15.5px;
+    }
+    .search-text {
+        width: 80%;
+    }
+
+    .search-text:focus {
+        width: 80%;
+    }
+
+    /* Main */
+    .main-caption {
+        position: absolute;
+        top: 200px;
+        left: 10px;
+        color: white;
+    }
+
+    /* Function */
+
+    /* Register */
+    .register-btn a {
+        font-weight: bold;
+        font-size: 16px;
+        padding: 9px 27px;
+        background-color: #ff5a5f;
+        color: white;
+        margin-bottom: 15px;
+        width: 95%;
+    }
+
+    /* links */
+    hr {
+        display: none;
+    }
+
+    .link-none {
+        display: none!important;
+    }
+    
+}
